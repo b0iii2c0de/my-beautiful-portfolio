@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Кастомные стили */
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Кастомизация вертикального скролла */
+
+::-webkit-scrollbar {
+	width: 10px;
+  /* background-slate-950 */
+	background-color: #020617;
+	/* border-radius: 1px; */
+	/* border: 5px solid #0369a1; */
+}
+  
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+  /* background-sky-700 */
+	background-color: #0369a1;
+}
+
+  
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+  /* background-slate-900 */
+	background-color: #0f172a; 
+}
